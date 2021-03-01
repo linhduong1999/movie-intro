@@ -1,0 +1,37 @@
+.search-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 12vh;
+  transform: translateY(0);
+  }
+  
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    height: 3rem;
+    border-radius: 5px;
+    margin-top: 3rem;
+}
+  
+.move-search-container {
+  transform: translateY(-7rem);
+  transition: 1s ease-in;
+  width: 100vw;
+  height: fit-content;
+  top: 7rem;
+  margin-top: 7rem;
+  margin-bottom: -7rem;
+  padding: 0;
+}
+
+
+.no-search-result {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 2rem;
+}

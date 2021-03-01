@@ -1,0 +1,68 @@
+/* HEADER */
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.logo-link{
+  font-size: 1.4rem !important;
+  font-weight: 900;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  
+}
+
+.nav-links a {
+  display: inline-block;
+  padding: 0.5rem;
+
+}
+
+.github-container {
+  display: block;
+  text-align: center;
+}
+.github {
+  padding:1rem;
+  font-size: 1.5rem;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+  height: 100%;
+}
+
+@media screen and (max-width:890px) {
+  .header, .nav-links {
+    flex-direction: column;
+  }
+
+  .logo-link, .nav-links a, .github {
+    font-size: 2rem !important;
+  }
+}

@@ -1,0 +1,35 @@
+.og-upcoming {
+  display: flex;
+  flex-direction: column;
+  height: 35vh;
+  justify-content: center;
+  transform: translateY(0);
+}
+
+.upcoming-title {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.date-picker {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+/* .move-upcoming-container {
+  transition: 1s ease-in;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+}
+.moving-upcoming-title {
+  display: inline-block;
+  text-align: center;
+  width: 40vw;
+}
+
+.moving-date-picker {
+  display: inline-block;
+  width: 50vw;
+} */

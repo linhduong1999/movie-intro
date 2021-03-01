@@ -1,0 +1,24 @@
+
+<API>
+1. Movie Detail: https://api.themoviedb.org/3/movie/775996?api_key=0aecc06bb4fadb06b5f071fef0c2ce6d&&language=en-US&append_to_response=videos%2Cimages&include_image_language=en%2Cnull
+
+2. Popular Movie:https://api.themoviedb.org/3/discover/movie?api_key=0aecc06bb4fadb06b5f071fef0c2ce6d&language=en-US&region=US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&release_date.gte=2020-07-20&release_date.lte=2021-10-18&with_release_type=3%7C2
+ 
+3. Search Movie: https://api.themoviedb.org/3/search/movie?query=bat&api_key=cfe422613b250f702980a3bbf9e90716&page=1
+
+4. Film in a range of time: https://api.themoviedb.org/3/discover/movie?api_key=0aecc06bb4fadb06b5f071fef0c2ce6d&language=en-US&region=US&sort_by=release_date.asc&include_adult=false&include_video=false&page=1&release_date.gte=2020-07-20&release_date.lte=2020-10-18&with_release_type=3%7C2
+
+
+Fixing css:
+Comment: https://www.nytimes.com/interactive/2020/world/year-in-pictures.html#commentsContainer
+Movie Detai: https://cinerama.qodeinteractive.com/portfolio-item/infinity/
+Popular: https://cinerama.qodeinteractive.com/shop/
+Home page/search: https://cinerama.qodeinteractive.com/
+
+
+<QUETION logic>
+5. gallery with different number of backdrops and posters.
+6. Why arent search results dissapearing when click search/movie intro from another page but disspear when refresh?
+6. save result in persist after searching so refresh does not make it dissapear. But when clicked on Movie Intro or Search tab again, make them all disspear. But
+9. push this to git. should i use Readme?
+8. deploy the website

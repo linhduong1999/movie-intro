@@ -1,0 +1,4 @@
+export const SEARCH_MOVIE_SAGA = "SEARCH_MOVIE";
+export const LOADING_SEARCH = "LOADING_SEARCH";
+export const SEARCH_SUCCESS = "SEARCH_SUCCESS";
+export const SEARCH_FAIL = "SEARCH_FAIL";

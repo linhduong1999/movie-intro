@@ -1,0 +1,22 @@
+.favorite-container h1 {
+  margin-top: 7rem;
+  text-align: center;
+}
+
+.no-favorite {
+  transform: translateY(10vw);
+  display: flex;
+  flex-direction: column;
+}
+
+
+.favorite-icon {
+ text-align: center;
+ font-size: 6rem;
+}
+
+.no-favorite p {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
